@@ -1,0 +1,5 @@
+*.local.*
+.DS_Store
+.env
+assets/img/couple/
+guests.csv
