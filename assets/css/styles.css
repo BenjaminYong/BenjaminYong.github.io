@@ -335,13 +335,13 @@ dialog { color: inherit; }
   padding: 7% 6% 6%;
   background: #fbf8f3;
   box-shadow: var(--shadow-card);
-  transform: rotate(2deg);
+  transform: rotate(3.5deg);
 }
 
-.postcard__head { text-align: center; padding-right: 22%; padding-left: 4%; }
+.postcard__head { text-align: center; padding-right: 16%; padding-left: 16%; }
 .postcard__title { margin: 0; font-family: var(--font-title); font-weight: 400; text-transform: uppercase; font-size: clamp(1.5rem, 6.6vw, 2.4rem); line-height: 1; color: var(--c-deep); }
 .postcard__title .script { font-family: var(--font-flow); text-transform: none; font-size: 1.1em; margin: 0 .05em; }
-.postcard__sub { margin-top: 4px; font-style: italic; font-size: .85rem; letter-spacing: .08em; color: var(--c-ink-soft); }
+.postcard__sub { margin-top: 4px; font-style: italic; font-size: 1.05rem; letter-spacing: .08em; color: var(--c-ink-soft); }
 
 .stamp { position: absolute; top: 5%; right: 4%; width: 13%; padding: 1.2%; background: #fff; box-shadow: 0 1px 3px rgb(94 60 69 / 25%); }
 .stamp__img { aspect-ratio: 4 / 5; padding: 14%; background: var(--c-tint-2); }
@@ -354,9 +354,9 @@ dialog { color: inherit; }
 .postcard__row .hand, .postcard__msg { font-family: var(--font-sign); color: var(--c-deep); }
 .postcard__row .hand { font-family: var(--font-sign); font-size: clamp(1.5rem, 6.4vw, 2.1rem); line-height: 1.2; }
 .postcard__msg { margin: 4% 0 0; font-size: clamp(1.7rem, 7.2vw, 2.5rem); line-height: 1.3; }
-.postcard__msg > span { display: block; border-bottom: 1px solid rgb(120 100 100 / 30%); }
+.postcard__msg > span { display: block; border-bottom: 1px solid rgb(120 100 100 / 30%); text-align: center; }
 .postcard__sign { margin-top: 0; padding-bottom: 2px; border-bottom: 1px solid rgb(120 100 100 / 30%); text-align: right; font-size: clamp(1.6rem, 7vw, 2.3rem); color: var(--c-deep); }
-.postcard__foot { margin-top: 4%; text-align: center; font-style: italic; font-size: .8rem; letter-spacing: .08em; color: var(--c-ink-soft); }
+.postcard__foot { margin-top: 4%; text-align: center; font-style: italic; font-size: 1rem; letter-spacing: .08em; color: var(--c-ink-soft); }
 
 /* script band */
 .band { background: var(--c-band); overflow: hidden; padding: 56px 0; }
@@ -525,11 +525,11 @@ dialog { color: inherit; }
 .is-playing .flora--calla2 { animation: lily-in 1.2s var(--ease-out) 2.5s backwards; }
 
 /* postcard */
-.postcard { width: 100%; margin: -3% 0 0 0; transform: rotate(2deg); }
+.postcard { width: 100%; margin: -3% 0 0 0; transform: rotate(3.5deg); }
 .postcard__title { font-size: clamp(1.8rem, 7.4vw, 3rem); }
 .postcard__head { padding-right: 16%; }
 .stamp { width: 12%; right: 3%; top: 4%; }
-.postmark { width: 19%; right: 13%; top: 3%; }
+.postmark { width: 19%; right: 6.5%; top: 3%; }
 .scene { width: min(100%, 800px); }
 .invited { padding-bottom: 36px; }
 .oenv__seal { top: -5%; width: 12%; }
@@ -618,4 +618,4 @@ body.locked { overflow: hidden; height: 100%; overscroll-behavior: none; touch-a
 .oenv__to { font-family: "Amiri", serif; font-style: normal; font-weight: 400; text-transform: uppercase; top: 17%; left: 20%; right: 20%; font-size: clamp(1.15rem, 4.6vw, 2.1rem); line-height: 1.12; -webkit-text-stroke: 0; }
 .postcard__row .hand, .postcard__msg, .postcard__sign { font-family: "Slamfight", var(--font-sign); color: var(--c-deep); }
 .postcard__row .hand { font-size: clamp(1.25rem, 5vw, 1.9rem); line-height: 1.15; white-space: nowrap; }
-.postcard__msg, .postcard__sign { font-size: clamp(1.9rem, 8vw, 3rem); }
+.postcard__msg, .postcard__sign { font-size: clamp(2.05rem, 8.8vw, 3.3rem); }
