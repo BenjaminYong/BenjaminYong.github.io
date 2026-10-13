@@ -596,15 +596,6 @@ dialog { color: inherit; }
 .intro.is-opening .mail { transition-duration: .3s; }
 .is-playing .invited { animation-duration: .5s; animation-delay: 0s; }
 .is-playing .oenv__img, .is-playing .oenv__flap { animation-duration: .65s; animation-delay: .05s; }
-@supports (-webkit-touch-callout: none) {
-  .is-playing .oenv__img,
-  .is-playing .oenv__seal,
-  .is-playing .photo-card,
-  .is-playing .postcard,
-  .is-playing .flora--lily,
-  .is-playing .flora--calla1,
-  .is-playing .flora--calla2 { animation-name: fade-in; }
-}
 .is-playing .oenv__seal { animation-duration: .45s; animation-delay: .55s; }
 .is-playing .oenv__to span:nth-child(1) { animation-duration: .6s; animation-delay: .7s; }
 .is-playing .oenv__to span:nth-child(3) { animation-duration: .6s; animation-delay: .9s; }
