@@ -136,6 +136,7 @@
       "END:VEVENT",
       "END:VCALENDAR",
     ].join("\r\n");
+
     const url = URL.createObjectURL(new Blob([ics], { type: "text/calendar;charset=utf-8" }));
     const a = Object.assign(document.createElement("a"), { href: url, download: "benjamin-stephanie-wedding.ics" });
     document.body.append(a);
